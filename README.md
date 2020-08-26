@@ -13,10 +13,10 @@ Installing Gzebo version 11 can be found [here](http://gazebosim.org/tutorials?t
 
 ## Create a catkin workspace
 ```
-
-
-
-
+$ source /opt/ros/melodic/setup.bash
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/
+$ catkin_make
 ```
 
 
